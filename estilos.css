@@ -24,14 +24,13 @@ a {
 }
 
 h1 {
-  font-size: calc(2em + 2vw);
+  font-size: calc(2em + 2vw) !important;
   margin-top: 10px;
   letter-spacing: 4px;
 }
 
 h2 {
-  font-size: calc(2em + 2vw);
-  font-size: 50px;
+  font-size: calc(2em + 2vw) !important;
   letter-spacing: 3px;
   font-weight: bold;
   /* background-color: black; */
@@ -39,19 +38,18 @@ h2 {
 }
 
 h3 {
-  font-size: 35px;
+  font-size: calc(1em + 1vw) !important;
   letter-spacing: 2px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: calc(1em + 1vw) !important;
   margin-top: 20px;
 }
 
 footer {
   margin-top: 40px;
   text-align: center;
-  font-size: 20px;
   font-style: italic;
 }
 
@@ -87,7 +85,6 @@ footer {
 
 .fondoArena {
   margin: 0;
-  padding-top: 30px;
   background: -webkit-gradient(linear, left top, left bottom, from(#d7beaa), color-stop(69%, #d7beaa), to(#a4876f));
   background: linear-gradient(180deg, #d7beaa 0%, #d7beaa 69%, #a4876f 100%);
 }
@@ -126,7 +123,6 @@ footer {
   opacity: 0;
 }
 
-/* animacion logo */
 /* Seccion acercanuestro */
 #acercaNuestro {
   text-align: center;
@@ -241,7 +237,7 @@ footer {
 
 #contactoIzquierda i {
   font-size: 50px;
-  color: black;
+  color: white;
   margin: 0 3% 0 3%;
 }
 
@@ -252,11 +248,30 @@ footer {
 
 #contactoIzquierda {
   text-align: center;
-  margin-bottom: 30%;
 }
 
-#contactoIzquierda #seguinos {
-  margin: 10% 0 5% 0;
+#contactoDerecha {
+  margin-bottom: 10%;
+}
+
+#seguinos {
+  text-align: center;
+  margin-top: 0;
+}
+
+#seguinos h3 {
+  color: white;
+  letter-spacing: 4px;
+  margin-bottom: 3%;
+}
+
+#seguinos a {
+  margin: 0 2% 0 2%;
+}
+
+#seguinos i {
+  color: white;
+  font-size: 3rem;
 }
 
 #contactoDerecha input {
