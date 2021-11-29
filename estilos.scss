@@ -145,6 +145,9 @@ footer{
         text-align: center;
         color: white;
         font-weight: lighter;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
     }
 }
 /* seccion servicios */
@@ -213,10 +216,12 @@ footer{
 }
 #contactoIzquierda{
     text-align: center;
-    
 }
 #contactoDerecha{
     margin-bottom: 10%;
+    h3{
+        text-align: center;
+    }
 }
 #seguinos{
     text-align: center;
@@ -246,6 +251,13 @@ footer{
     width: 100%;
     border-radius: 5px;
     margin-bottom: 5%;
+}
+#mapa{
+    width: 100%;
+    margin-bottom: 5%;
+    iframe{
+        width: 100%;
+    }
 }
 /* Grid Contacto */
 .gridContacto{
